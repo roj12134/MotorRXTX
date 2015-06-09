@@ -21,7 +21,7 @@ public class RXTX {
     public static String inData;
     void connect() throws Exception {
         //String SerialPortID = "/dev/ttyAMA0";
-	String SerialPortID = "COM9";
+	String SerialPortID = "COM10";
         System.setProperty("gnu.io.rxtx.SerialPorts", SerialPortID);
         
         CommPortIdentifier portIdentifier = CommPortIdentifier
